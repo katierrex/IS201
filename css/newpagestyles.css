@@ -1,0 +1,93 @@
+.header{
+    background-color: black;
+    color: black;
+    height: 300px;
+    line-height: 100px;
+    background-image: url('../assets/img/ProjectPicVeg.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 180px;
+    font-size: 20px;
+    font-family: cursive;
+
+}
+
+.explanation{
+    text-align: center;
+
+}
+
+body{
+    background-color: whitesmoke;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    display: flex;
+}
+
+.list {
+    flex: 1;
+    padding-left: 400px;
+}
+
+.image {
+    flex: 1;
+    padding-right: 400px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.content{
+    text-align: center;
+}
+   
+
+.footer{
+    background-color: black;
+    color: white;
+    height: 30px;
+    bottom: 0px;
+    position:fixed;
+    left: 5px;
+    right: 5px;
+    text-align: center;
+    font-size: 10px;
+
+}
+
+nav{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a{
+    float: center;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+nav a:hover{
+    background-color: #ccc;
+}
+
+.anchor a{
+    color: black;
+}
+
+.anchor{
+    text-align: center;
+}
